@@ -171,3 +171,127 @@ template {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+html, body {
+  font-size: 62.5%;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flexColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+header {
+  height: 75vh;
+  width: 100%;
+  margin: 0;
+  background-color: #AF0034;
+  position: relative;
+  color: #ABC1DB;
+  font-size: 3rem;
+  padding-bottom: 1px; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.headerBannerFlex {
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.headerNavFlex {
+  width: 400px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: 150px; }
+
+.headerTitleFlex {
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%; }
+
+.headerNameFlex {
+  padding: 0 10%;
+  width: 40%; }
+
+h1 {
+  margin: 0;
+  width: 100%; }
+
+.AName {
+  margin-left: 30%; }
+
+.FName {
+  margin-left: 70%; }
+
+.headerOccFlex {
+  width: 60%; }
+
+.MySelfPic1 {
+  height: 100%; }
+
+.MyDescription {
+  height: 300px; }
+
+footer {
+  background-color: #262626;
+  color: #ABC1DB;
+  text-align: left; }
+
+.footerFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.footerItem {
+  width: 25%;
+  border-right: 1px solid #3a3a3a;
+  padding-left: 10px;
+  padding-right: 20px; }
+
+.footerNav {
+  text-decoration: none; }
+
+.footerNav li {
+  margin: 5%; }
+
+.copyright {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 2rem; }
+
+.footerLogo {
+  width: 50%;
+  text-align: left; }
+
+.insta {
+  border-right: 0; }
+
+.social {
+  margin-right: 5%; }
+
+.social div {
+  width: 40px; }
