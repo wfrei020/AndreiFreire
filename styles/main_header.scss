@@ -3,6 +3,9 @@ $LightBlue : #ABC1DB;
 $DarkBlue: #3C5D70;
 $RaisinBlack : #262626;
 $Crimson : #AF0034;
+$lobster: 'Lobster', cursive;
+$pacifico: 'Pacifico', cursive;
+$Dancing: 'Dancing Script', cursive;
 
 header {
 	//background: url(../assets/main-image-1.jpeg);
@@ -12,9 +15,10 @@ header {
   	//background-repeat: no-repeat;
    	width: 100%;
 	margin:0;
+	background: radial-gradient($Crimson,#652929);
 	background-color: $Crimson;
 	position: relative;
-	color:$LightBlue;
+	color:white;
 	font-size: 3rem;padding-bottom: 1px;
 }
 
@@ -23,10 +27,20 @@ ul{
 	margin:0;
 	padding:0;
 }
+h4{
+	margin: 0;
+	font-family:$Dancing;
+}
 
 .headerBannerFlex{
 	width:100%;
 	justify-content:space-between;
+	position: fixed;
+	left:0;
+	top:0;
+	background-color: $RaisinBlack;
+	z-index: 9;
+
 }
 
 .headerNavFlex{
@@ -58,6 +72,8 @@ h1
 	width: 100%;
 }
 
+
+
 .AName{
 	margin-left:30%
 }
@@ -69,4 +85,24 @@ h1
 
 .headerOccFlex{
 width:60%;
+
+}
+
+.welcomeLogo{
+	font-size:4rem;
+}
+
+.logoContainer{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	display: none;
+	height:75vh;
+	justify-content:center;
+	align-items:center;
+
+	color:white;
+	font-size:10rem;
+	font-family: $Dancing;
 }

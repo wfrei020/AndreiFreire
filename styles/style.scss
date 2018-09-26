@@ -4,10 +4,13 @@ $LightBlue : #ABC1DB;
 $DarkBlue: #3C5D70;
 $RaisinBlack : #262626;
 $Crimson : #AF0034;
+$lobster: 'Lobster', cursive;
+$pacifico: 'Pacifico', cursive;
+$Dancing: 'Dancing Script', cursive;
 
 html , body {
 	font-size: 62.5%;
-	font-family: Montserrat;
+	font-family: $lobster;
 	font-weight: 700;
 	text-align: center;
 }
@@ -24,7 +27,7 @@ html , body {
 .wrapper {
 
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 10%;
 }
 
 @import "main_header";

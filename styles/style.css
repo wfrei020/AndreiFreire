@@ -174,7 +174,7 @@ template {
 
 html, body {
   font-size: 62.5%;
-  font-family: Montserrat;
+  font-family: "Lobster", cursive;
   font-weight: 700;
   text-align: center; }
 
@@ -194,15 +194,18 @@ html, body {
 
 .wrapper {
   max-width: 1140px;
-  margin: 0 auto; }
+  margin: 0 10%; }
 
 header {
   height: 75vh;
   width: 100%;
   margin: 0;
+  background: -webkit-radial-gradient(#AF0034, #652929);
+  background: -o-radial-gradient(#AF0034, #652929);
+  background: radial-gradient(#AF0034, #652929);
   background-color: #AF0034;
   position: relative;
-  color: #ABC1DB;
+  color: white;
   font-size: 3rem;
   padding-bottom: 1px; }
 
@@ -211,11 +214,20 @@ ul {
   margin: 0;
   padding: 0; }
 
+h4 {
+  margin: 0;
+  font-family: "Dancing Script", cursive; }
+
 .headerBannerFlex {
   width: 100%;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #262626;
+  z-index: 9; }
 
 .headerNavFlex {
   width: 400px;
@@ -248,11 +260,72 @@ h1 {
 .headerOccFlex {
   width: 60%; }
 
+.welcomeLogo {
+  font-size: 4rem; }
+
+.logoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  height: 75vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  font-size: 10rem;
+  font-family: "Dancing Script", cursive; }
+
 .MySelfPic1 {
-  height: 100%; }
+  height: 100%;
+  border-radius: 100px; }
 
 .MyDescription {
-  height: 300px; }
+  height: 300px;
+  margin: 0 10%;
+  margin-top: 10%; }
+
+.columnTwo {
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#DBCFC0), to(black));
+  background: -webkit-linear-gradient(left, #DBCFC0, black);
+  background: -o-linear-gradient(left, #DBCFC0, black);
+  background: linear-gradient(to right, #DBCFC0, black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+main img {
+  height: 300px;
+  border-radius: 80px; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.technologyDesc {
+  margin: 0 !important;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#DBCFC0), to(black));
+  background: -webkit-linear-gradient(left, #DBCFC0, black);
+  background: -o-linear-gradient(left, #DBCFC0, black);
+  background: linear-gradient(to right, #DBCFC0, black); }
+
+.techPicContainer {
+  margin: 0 !important;
+  background: black;
+  width: 100%; }
 
 footer {
   background-color: #262626;

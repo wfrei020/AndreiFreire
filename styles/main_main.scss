@@ -1,7 +1,50 @@
+$Gray : #DBCFC0;
+$LightBlue : #ABC1DB;
+$DarkBlue: #3C5D70;
+$RaisinBlack : #262626;
+$Crimson : #AF0034;
+$lobster: 'Lobster', cursive;
+$pacifico: 'Pacifico', cursive;
+$Dancing: 'Dancing Script', cursive;
+
 .MySelfPic1{
 height:100%;
+
+border-radius: 100px;
 }
 
 .MyDescription{
 	height:300px;
+	margin:0 10%;
+	margin-top: 10%;
+}
+.columnTwo{
+	height: 100%;
+	background: linear-gradient(to right,$Gray,black);
+	display: flex;
+	justify-content:space-between;
+}
+main img {
+	height:300px;
+	border-radius: 80px;
+}
+
+.row{
+	display: flex;
+	justify-content:space-between;
+}
+
+
+.technologyDesc{
+	//padding-left: 10%;
+	margin:0 !important;
+	width:100%;
+	background: linear-gradient(to right,$Gray,black);
+
+}
+
+.techPicContainer{
+	margin:0 !important;
+	background: black;
+	width:100%;
 }
