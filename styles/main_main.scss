@@ -6,26 +6,35 @@ $Crimson : #AF0034;
 $lobster: 'Lobster', cursive;
 $pacifico: 'Pacifico', cursive;
 $Dancing: 'Dancing Script', cursive;
+$Normal: 'Pathway Gothic One', sans-serif;
 
 .MySelfPic1{
 	height:100%;
 	border-radius: 100px;
+	
 }
 
 .MyDescription{
-	height:300px;
+	height:400px;
 	margin:0 10%;
 	margin-top: 10%;
+	margin-bottom: 5%;
 }
 .columnTwo{
 	height: 100%;
-	background: linear-gradient(to right,$Gray,black);
+	background-color: black;
+	//background: linear-gradient(to right,$Gray,black);
 	display: flex;
 	justify-content:space-between;
+	color:white;
+	
+}
+main section{
+font-size:2rem;
 }
 main img {
 	display: block;
-	height:300px;
+	height:50vh;
 	border-radius: 80px;
 }
 
@@ -44,12 +53,12 @@ h2{
 	margin:0 !important;
 	width:100%;
 	background: linear-gradient(to right,$Gray,black);
-
+	font-family: $Normal;
 }
 
 .techPicContainer{
 	margin:0 !important;
-	background: black;
+	background-color: black;
 	width:100%;
 }
 
@@ -69,18 +78,22 @@ margin:0;
 
 .rowFour{
 	background: url(../assets/fitness.png);
-	height: 50vh;
+	height: 80vh;
 	background-size: cover;
 	background-attachment: fixed;
   	background-repeat: no-repeat;
+  	color:white;
+  	font-family: $Normal;
+
 }
 
 .rowThree{
 	background: url(../assets/creativeai.gif);
-	height: 50vh;
+	height: 80vh;
 	background-size: cover;
 	background-attachment: fixed;
   	background-repeat: no-repeat;
+  	font-family: $Normal;
   	
 }
 
@@ -88,3 +101,6 @@ margin:0;
 
 	
 }
+
+
+

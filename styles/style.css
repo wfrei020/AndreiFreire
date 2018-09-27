@@ -310,26 +310,28 @@ a {
   border-radius: 100px; }
 
 .MyDescription {
-  height: 300px;
+  height: 400px;
   margin: 0 10%;
-  margin-top: 10%; }
+  margin-top: 10%;
+  margin-bottom: 5%; }
 
 .columnTwo {
   height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#DBCFC0), to(black));
-  background: -webkit-linear-gradient(left, #DBCFC0, black);
-  background: -o-linear-gradient(left, #DBCFC0, black);
-  background: linear-gradient(to right, #DBCFC0, black);
+  background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  color: white; }
+
+main section {
+  font-size: 2rem; }
 
 main img {
   display: block;
-  height: 300px;
+  height: 50vh;
   border-radius: 80px; }
 
 h2 {
@@ -349,11 +351,12 @@ h2 {
   background: -webkit-gradient(linear, left top, right top, from(#DBCFC0), to(black));
   background: -webkit-linear-gradient(left, #DBCFC0, black);
   background: -o-linear-gradient(left, #DBCFC0, black);
-  background: linear-gradient(to right, #DBCFC0, black); }
+  background: linear-gradient(to right, #DBCFC0, black);
+  font-family: "Pathway Gothic One", sans-serif; }
 
 .techPicContainer {
   margin: 0 !important;
-  background: black;
+  background-color: black;
   width: 100%; }
 
 .businessPic {
@@ -366,17 +369,20 @@ h2 {
 
 .rowFour {
   background: url(../assets/fitness.png);
-  height: 50vh;
+  height: 80vh;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Pathway Gothic One", sans-serif; }
 
 .rowThree {
   background: url(../assets/creativeai.gif);
-  height: 50vh;
+  height: 80vh;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  font-family: "Pathway Gothic One", sans-serif; }
 
 .contactForm div {
   font-size: 3rem;
@@ -436,7 +442,8 @@ textarea {
 footer {
   background-color: #262626;
   color: #ABC1DB;
-  text-align: left; }
+  text-align: left;
+  font-family: "Pathway Gothic One", sans-serif; }
 
 .footerFlex {
   display: -webkit-box;

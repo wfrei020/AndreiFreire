@@ -6,13 +6,14 @@ $Crimson : #AF0034;
 $lobster: 'Lobster', cursive;
 $pacifico: 'Pacifico', cursive;
 $Dancing: 'Dancing Script', cursive;
+$Normal: 'Pathway Gothic One', sans-serif;
 
 footer
 {
     background-color: $RaisinBlack;
 	color:$LightBlue;
 	text-align: left;
-
+	font-family: $Normal;
 
 }
 
