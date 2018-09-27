@@ -197,17 +197,21 @@ html, body {
   margin: 0 10%; }
 
 header {
+  background: url(../assets/main_Back.jpg);
   height: 75vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   width: 100%;
   margin: 0;
-  background: -webkit-radial-gradient(#AF0034, #652929);
-  background: -o-radial-gradient(#AF0034, #652929);
-  background: radial-gradient(#AF0034, #652929);
-  background-color: #AF0034;
   position: relative;
   color: white;
   font-size: 3rem;
   padding-bottom: 1px; }
+
+h1 {
+  margin: 0;
+  width: 100%; }
 
 ul {
   list-style: none;
@@ -217,6 +221,9 @@ ul {
 h4 {
   margin: 0;
   font-family: "Dancing Script", cursive; }
+
+a {
+  text-decoration: none; }
 
 .headerBannerFlex {
   width: 100%;
@@ -246,10 +253,6 @@ h4 {
 .headerNameFlex {
   padding: 0 10%;
   width: 40%; }
-
-h1 {
-  margin: 0;
-  width: 100%; }
 
 .AName {
   margin-left: 30%; }
@@ -325,8 +328,12 @@ h1 {
   justify-content: space-between; }
 
 main img {
+  display: block;
   height: 300px;
   border-radius: 80px; }
+
+h2 {
+  margin-top: 0; }
 
 .row {
   display: -webkit-box;
@@ -348,6 +355,83 @@ main img {
   margin: 0 !important;
   background: black;
   width: 100%; }
+
+.businessPic {
+  border-radius: 0; }
+
+.businessDesc {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0; }
+
+.rowFour {
+  background: url(../assets/fitness.png);
+  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.rowThree {
+  background: url(../assets/creativeai.gif);
+  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.contactForm div {
+  font-size: 3rem;
+  text-align: left;
+  margin: 5%;
+  width: 500px; }
+
+.contactForm button {
+  margin: 5%; }
+
+.contactForm label strong {
+  width: 100px;
+  margin-right: 20px; }
+
+.contactDescription {
+  height: 100%;
+  margin: 0 10%;
+  margin-top: 10%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.contactDescription img {
+  height: 300px; }
+
+h6 {
+  width: 100px;
+  margin: 0;
+  padding-top: 6px; }
+
+input {
+  border: 1px #DBCFC0 solid;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive; }
+
+textarea {
+  border: 1px #DBCFC0 solid;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive; }
+
+.comment {
+  height: 100px;
+  width: 400px; }
+
+.contactform .flex {
+  width: 300px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 footer {
   background-color: #262626;

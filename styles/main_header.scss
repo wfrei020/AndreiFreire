@@ -8,18 +8,24 @@ $pacifico: 'Pacifico', cursive;
 $Dancing: 'Dancing Script', cursive;
 
 header {
-	//background: url(../assets/main-image-1.jpeg);
+	background: url(../assets/main_Back.jpg);
 	height: 75vh;
-	//background-size: cover;
-	//background-attachment: fixed;
-  	//background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
    	width: 100%;
 	margin:0;
-	background: radial-gradient($Crimson,#652929);
-	background-color: $Crimson;
+	//background: radial-gradient($Crimson,#652929);
+	//background-color: $Crimson;
 	position: relative;
 	color:white;
 	font-size: 3rem;padding-bottom: 1px;
+}
+
+h1
+{
+	margin:0;
+	width: 100%;
 }
 
 ul{
@@ -30,6 +36,10 @@ ul{
 h4{
 	margin: 0;
 	font-family:$Dancing;
+}
+
+a{
+	text-decoration: none;
 }
 
 .headerBannerFlex{
@@ -66,13 +76,6 @@ h4{
 	//margin-bottom: 10px;
 	width:40%;
 }
-h1
-{
-	margin:0;
-	width: 100%;
-}
-
-
 
 .AName{
 	margin-left:30%
