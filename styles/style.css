@@ -307,13 +307,14 @@ a {
 
 .MySelfPic1 {
   height: 100%;
-  border-radius: 100px; }
+  border-radius: 100px;
+  padding-right: 10%; }
 
 .MyDescription {
   height: 400px;
   margin: 0 10%;
   margin-top: 10%;
-  margin-bottom: 5%; }
+  margin-bottom: 10%; }
 
 .columnTwo {
   height: 100%;
@@ -364,8 +365,10 @@ h2 {
 
 .businessDesc {
   height: 100%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
-  margin: 0; }
+  margin: 0;
+  padding: 0 10%; }
 
 .rowFour {
   background: url(../assets/fitness.png);
@@ -391,8 +394,10 @@ h2 {
   height: 450px;
   background-color: white;
   color: black;
-  margin-bottom: 5%;
   text-align: left; }
+
+.aboutInfo {
+  margin-bottom: 20%; }
 
 .about .aboutThree {
   height: 300px;

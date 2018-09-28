@@ -11,6 +11,7 @@ $Normal: 'Pathway Gothic One', sans-serif;
 .MySelfPic1{
 	height:100%;
 	border-radius: 100px;
+padding-right:10%;
 	
 }
 
@@ -18,7 +19,7 @@ $Normal: 'Pathway Gothic One', sans-serif;
 	height:400px;
 	margin:0 10%;
 	margin-top: 10%;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 }
 .columnTwo{
 	height: 100%;
@@ -27,6 +28,7 @@ $Normal: 'Pathway Gothic One', sans-serif;
 	display: flex;
 	justify-content:space-between;
 	color:white;
+
 	
 }
 main section{
@@ -71,8 +73,10 @@ h2{
 
 .businessDesc{
 height: 100%;
+width:100%;
 background-color: rgba(255,255,255,0.8);
 margin:0;
+padding:0 10%;
 	//background: linear-gradient(to left,white,#f5f5f5);
 }
 
