@@ -1,0 +1,130 @@
+$Gray : #DBCFC0;
+$LightBlue : #ABC1DB;
+$DarkBlue: #3C5D70;
+$RaisinBlack : #262626;
+$Crimson : #AF0034;
+$lobster: 'Lobster', cursive;
+$pacifico: 'Pacifico', cursive;
+$Dancing: 'Dancing Script', cursive;
+$Normal: 'Pathway Gothic One', sans-serif;
+
+
+.about{
+	font-size:1.8rem;
+}
+.about .aboutTwo{
+	height:450px;
+	background-color: white;
+	color:black;
+	margin-bottom: 5%;
+	text-align: left;
+	
+
+	//background: radial-gradient($DarkBlue,white);
+}
+
+.about .aboutThree{
+	height:300px;
+	background-color: white;
+	color:black;
+
+	//background: radial-gradient(white,$Gray);
+}
+
+.about .aboutFour{
+		height:300px;
+		background-color: white;
+		margin-bottom: 5%;
+	//background: linear-gradient(to bottom,$Crimson,white	);
+}
+
+.about .aboutOne{
+		height:300px;
+		background-color: white;
+		color:black;
+		margin-bottom: 40px;
+	//background: radial-gradient($DarkBlue,white);
+}
+.educationDesc{
+	width:100%;
+}
+
+.educationDesc img{
+
+	height:80px;
+	text-align: center
+}
+
+.uottawaLogo{
+	height:100px;
+	border-radius: 0;
+
+
+}
+.logos{
+	margin:5% 0;	
+}
+
+.elgLogo{
+	   // margin: 0 30%;
+border-radius: 50%;
+   margin-right:  17%;
+}
+
+.codeLogo{
+	border : 1px black solid;
+    margin-right: 3%;
+	
+}
+.educ{
+	justify-content:center;
+	width:250px;
+}
+.educ p{
+	margin : 0;
+}
+
+.experienceDesc{
+	height:100%;
+	text-align: left;
+}
+
+.educFlex{
+	justify-content:space-between;
+}
+.Project{
+	width:100%;
+}
+
+.projFlexItem{
+	width:50%;
+}
+
+.projFlex{
+	justify-content:space-between;
+
+}
+
+.interestFlex{
+	justify-content:space-between;
+}
+.interestFlexItem{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.interestFlexItem img{
+	border-radius: 0;
+	height: 200px;
+}
+
+.interestDesc{
+	width:100%;
+
+}
+
+.aboutList{
+	text-align: left;
+	list-style-type:square;
+}

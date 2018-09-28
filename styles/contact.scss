@@ -66,3 +66,21 @@ textarea{
 width:300px;
 	justify-content:space-between;
 }
+
+.contactFormContainer{
+	border:1px $Gray solid;
+	border-radius: 20px;
+	margin-bottom: 5%;
+	padding-top:5%;
+}
+
+.submitButton button{
+
+	background-color: $LightBlue;
+	border-radius: 10px;
+	height:60px;
+	width:120px;
+}
+.submitButton {
+	text-align: center !important;
+}
