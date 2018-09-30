@@ -43,6 +43,24 @@ a{
 	text-decoration: none;
 }
 
+.fa {
+	display: none;
+	cursor: pointer;
+}
+
+.showNav {
+	display: flex !important;
+}
+
+ul.mainNav li {
+	margin-right: 2rem;
+}
+
+ul.mainNav a {
+	display: inline-block;
+	height: 100%;
+}
+
 .headerBannerFlex{
 	width:100%;
 	justify-content:space-between;

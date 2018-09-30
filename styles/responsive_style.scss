@@ -1,0 +1,222 @@
+@media (max-width: 1300px) {
+
+	.aboutInfo{
+				height:100%;
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		margin-bottom:50px;
+	}
+	.aboutInfo .MySelfPic1{
+		border-radius: 0;
+		height:300px;
+	}
+
+}
+
+
+@media (max-width: 830px) {
+
+	.MyDescription{
+		height:100%;
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+
+	}
+	.MySelfPic1{
+		border-radius: 0;
+		height:300px;
+	}
+
+
+	.MyDescription .description{
+		height: 100%;
+	}
+
+	.rowThree{
+		height:400px;
+	}
+
+	.rowFour{
+		height:400px;
+	}
+
+	.columnTwo{
+		display:flex;
+		flex-direction:column-reverse;
+		height:100%;
+		align-items:center;
+
+	}
+	.techPicContainer{
+		width:50%;
+	}
+	.technologyDesc{
+	//padding-left: 10%;
+	//margin:0 !important;
+	//width:100%;
+	background: linear-gradient(to top,$Gray,black);
+	font-family: $Normal;
+}
+
+.about .row{
+	display: block;
+	height: 100%;
+}
+
+.educationDesc{
+	display: flex;
+	margin-bottom: 20px;
+	height: 100%;
+
+}
+
+.uottawaLogo{
+	height:100px;
+
+}
+
+.elgLogo{
+width:100px;
+margin-top:20px;
+margin-left:44px;
+}
+
+.codeLogo{
+width:80px;
+margin-top:20px;
+margin-right:10px;
+}
+
+.educFlex{
+	flex-direction:column;
+	align-items:center;
+	//justify-content:space-between;
+}
+
+.logos{
+	margin:0;
+}
+
+
+.interestFlex{
+	flex-direction:column;
+	align-items:center;
+}
+
+.interestFlex img{
+	height:200px;
+	width:250px;
+}
+
+
+.contactDescription{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.contactFormContainer{
+	margin-top:5%;
+}
+
+.interestFlexItem{
+	align-items:center;
+}
+
+
+
+}
+
+@media (max-width: 510px) {
+
+	.contactFormContainer{
+		width:100%;
+	}
+
+.contactForm .flex{
+	flex-direction:column;
+
+
+}
+
+.submitButton button{
+	    margin-right: 50%;
+
+}
+
+}
+
+
+@media (max-width: 620px) {
+
+.logos{
+	display:none;
+}
+.educFlex{
+	align-items:center;
+}
+
+.educ{
+	margin-bottom:40px;
+}
+
+.projFlex{
+	flex-direction:column;
+}
+
+}
+
+@media (max-width: 620px) {
+.rowThree , .rowFour{
+	height: 100%;
+}
+}
+
+@media (max-width: 560px) {
+.headerOccFlex{
+	display: none;
+}
+}
+
+@media (max-width: 750px) {
+
+
+
+	ul.mainNav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba(255,255,255,0.8);
+		display: none;
+		flex-flow: column wrap;
+		text-align: center;
+		justify-content: space-around;
+	}
+
+	/* We need to add a class here to make the ul with the class of mainNav display block. We add it inside of the media query, so the styles only show up when the viewport is less than 767px wide */
+
+	ul.mainNav.open {
+		display: block;
+	}
+
+	ul.mainNav li {
+		padding: 25px 0;
+		font-size: 2rem;
+	}
+
+	ul.mainNav a {
+		color: rgba(0,0,0,0.8);
+	}
+	
+	.fa {
+		display: inline-block;
+	
+
+	}
+
+}

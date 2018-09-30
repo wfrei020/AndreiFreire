@@ -23,6 +23,7 @@ html , body {
 .flexColumn{
 	display: flex;
 	flex-direction:column;
+	
 }
 
 .wrapper {
@@ -35,4 +36,5 @@ html , body {
 @import "main_main";
 @import "about";
 @import "contact";
+@import "responsive_style";
 @import "main_footer";

@@ -225,6 +225,22 @@ h4 {
 a {
   text-decoration: none; }
 
+.fa {
+  display: none;
+  cursor: pointer; }
+
+.showNav {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
+
+ul.mainNav li {
+  margin-right: 2rem; }
+
+ul.mainNav a {
+  display: inline-block;
+  height: 100%; }
+
 .headerBannerFlex {
   width: 100%;
   -webkit-box-pack: justify;
@@ -327,7 +343,7 @@ a {
   justify-content: space-between;
   color: white; }
 
-main section {
+main .secDiv {
   font-size: 2rem; }
 
 main img {
@@ -372,7 +388,7 @@ h2 {
 
 .rowFour {
   background: url(../assets/fitness.png);
-  height: 80vh;
+  height: 100%;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -381,7 +397,7 @@ h2 {
 
 .rowThree {
   background: url(../assets/creativeai.gif);
-  height: 80vh;
+  height: 100%;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -510,7 +526,7 @@ h2 {
 
 .contactDescription {
   height: 100%;
-  margin: 0 10%;
+  margin: 0 5%;
   margin-top: 10%;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -564,6 +580,191 @@ textarea {
 
 .submitButton {
   text-align: center !important; }
+
+@media (max-width: 1300px) {
+  .aboutInfo {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 50px; }
+  .aboutInfo .MySelfPic1 {
+    border-radius: 0;
+    height: 300px; } }
+
+@media (max-width: 830px) {
+  .MyDescription {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .MySelfPic1 {
+    border-radius: 0;
+    height: 300px; }
+  .MyDescription .description {
+    height: 100%; }
+  .rowThree {
+    height: 400px; }
+  .rowFour {
+    height: 400px; }
+  .columnTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .techPicContainer {
+    width: 50%; }
+  .technologyDesc {
+    background: -webkit-gradient(linear, left bottom, left top, from(#DBCFC0), to(black));
+    background: -webkit-linear-gradient(bottom, #DBCFC0, black);
+    background: -o-linear-gradient(bottom, #DBCFC0, black);
+    background: linear-gradient(to top, #DBCFC0, black);
+    font-family: "Pathway Gothic One", sans-serif; }
+  .about .row {
+    display: block;
+    height: 100%; }
+  .educationDesc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    height: 100%; }
+  .uottawaLogo {
+    height: 100px; }
+  .elgLogo {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 44px; }
+  .codeLogo {
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 10px; }
+  .educFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .logos {
+    margin: 0; }
+  .interestFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .interestFlex img {
+    height: 200px;
+    width: 250px; }
+  .contactDescription {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .contactFormContainer {
+    margin-top: 5%; }
+  .interestFlexItem {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+@media (max-width: 510px) {
+  .contactFormContainer {
+    width: 100%; }
+  .contactForm .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .submitButton button {
+    margin-right: 50%; } }
+
+@media (max-width: 620px) {
+  .logos {
+    display: none; }
+  .educFlex {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .educ {
+    margin-bottom: 40px; }
+  .projFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
+@media (max-width: 620px) {
+  .rowThree, .rowFour {
+    height: 100%; } }
+
+@media (max-width: 560px) {
+  .headerOccFlex {
+    display: none; } }
+
+@media (max-width: 750px) {
+  ul.mainNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    text-align: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  /* We need to add a class here to make the ul with the class of mainNav display block. We add it inside of the media query, so the styles only show up when the viewport is less than 767px wide */
+  ul.mainNav.open {
+    display: block; }
+  ul.mainNav li {
+    padding: 25px 0;
+    font-size: 2rem; }
+  ul.mainNav a {
+    color: rgba(0, 0, 0, 0.8); }
+  .fa {
+    display: inline-block; } }
 
 footer {
   background-color: #262626;
