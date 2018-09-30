@@ -225,9 +225,30 @@ h4 {
 a {
   text-decoration: none; }
 
+.headerBannerFlex {
+  color: #DBCFC0;
+  font-size: 6rem; }
+
+a {
+  color: #DBCFC0; }
+
+/* unvisited link */
+a:visited {
+  color: #DBCFC0; }
+
+/* visited link */
+a:hover {
+  color: #DBCFC0; }
+
+/* mouse over link */
+a:active {
+  color: #DBCFC0; }
+
+/* selected link */
 .fa {
   display: none;
-  cursor: pointer; }
+  cursor: pointer;
+  font-size: 4rem; }
 
 .showNav {
   display: -webkit-box !important;
@@ -282,9 +303,12 @@ ul.mainNav a {
 .welcomeLogo {
   font-size: 4rem; }
 
+.logoConatinerInit {
+  display: none; }
+
 .logoContainer {
   position: absolute;
-  top: 0;
+  top: 20%;
   left: 0;
   width: 100%;
   display: none;
@@ -298,6 +322,10 @@ ul.mainNav a {
   color: white;
   font-size: 10rem;
   font-family: "Dancing Script", cursive; }
+
+.welcomeText {
+  font-size: 3rem;
+  margin: 0; }
 
 .mainHeaderTitle {
   position: absolute;
@@ -742,7 +770,7 @@ textarea {
 @media (max-width: 750px) {
   ul.mainNav {
     position: fixed;
-    top: 0;
+    top: 60px;
     left: 0;
     height: 100%;
     width: 100%;
@@ -764,13 +792,15 @@ textarea {
   ul.mainNav a {
     color: rgba(0, 0, 0, 0.8); }
   .fa {
-    display: inline-block; } }
+    display: inline-block;
+    margin-right: 28px; } }
 
 footer {
   background-color: #262626;
-  color: #ABC1DB;
+  color: #DBCFC0;
   text-align: left;
-  font-family: "Pathway Gothic One", sans-serif; }
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.8rem; }
 
 .footerFlex {
   display: -webkit-box;

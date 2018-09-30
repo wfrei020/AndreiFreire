@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Andrei Freire</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" >
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico|Pathway+Gothic+One" rel="stylesheet">
 
 	<link rel="stylesheet" href="styles/style.css"/>
@@ -15,7 +15,7 @@
 			<div><strong>Andrei</strong></div>
 			<nav>
 				<div class="fa fa-bars fa-2x"></div>
-				<ul class="mainNav flex headerNavFlex ">
+				<ul class="mainNav flex headerNavFlex">
 					<li><a href="#home">Home</a></li>
 					<li><a href="templates/about.html">About</a></li>
 					<li><a href="templates/contact.html">Contact</a></li>
@@ -37,6 +37,7 @@
 		</div>
 		<div class="logoContainer">
 			<h1 class="logo">A</h1>
+			<h3 class=welcomeText>Welcome</h3>
 		</div>
 	</header>
 	<main >
@@ -130,9 +131,9 @@
 				<div class="smallLine"></div>
 				<nav >
 					<ul class="footerNav">
-						<li>Home</li>
-						<li>About</li>
-						<li>Projects</li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="templates/about.html">About</a></li>
+					<li><a href="templates/contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -162,5 +163,28 @@
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="scripts/main.js"></script>
+	<script>
+			/*fade in logo*/
+	$(function(){
+
+			$('.headerNameFlex').addClass('logoConatinerInit');
+			$('.headerOccFlex').addClass('logoConatinerInit');
+
+				$('.logoContainer').fadeIn(2000);
+
+				setTimeout(function(){
+					$('.logoContainer').fadeOut(2000);
+
+							setTimeout(function(){
+				$('.headerNameFlex').fadeIn(1000);
+				$('.headerOccFlex').fadeIn(1000);
+
+			//$('.headerNameFlex').removeClass('logoConatinerInit');
+						},2100);
+				},5000)
+				
+
+			});
+	</script>
 </body>
 </html>

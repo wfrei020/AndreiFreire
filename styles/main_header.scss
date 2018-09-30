@@ -43,9 +43,22 @@ a{
 	text-decoration: none;
 }
 
+.headerBannerFlex{
+	color:$Gray;
+	font-size:6rem;
+}
+
+a {color:$Gray;}      /* unvisited link */
+a:visited {color:$Gray;}  /* visited link */
+a:hover {color:$Gray;}  /* mouse over link */
+a:active {color:$Gray;}  /* selected link */
+
+
 .fa {
+
 	display: none;
 	cursor: pointer;
+	font-size:4rem;
 }
 
 .showNav {
@@ -114,9 +127,13 @@ width:60%;
 	font-size:4rem;
 }
 
+.logoConatinerInit{
+display:none;
+}
+
 .logoContainer{
 	position: absolute;
-	top:0;
+	top:20%;
 	left:0;
 	width:100%;
 	display: none;
@@ -129,6 +146,11 @@ width:60%;
 	font-family: $Dancing;
 }
 
+
+.welcomeText{
+	font-size: 3rem;
+	margin:0;
+}
 .mainHeaderTitle{
 	position: absolute;
 	top:10px;
