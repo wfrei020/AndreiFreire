@@ -10,17 +10,13 @@ $Normal: 'Pathway Gothic One', sans-serif;
 
 
 .about{
-	font-size:1.8rem;
+	font-size: 1.8rem;
 }
 .about .aboutTwo{
-	height:450px;
+	height: 450px;
 	background-color: white;
-	color:black;
-	
+	color: black;
 	text-align: left;
-	
-
-	//background: radial-gradient($DarkBlue,white);
 }
 
 .aboutInfo{
@@ -28,51 +24,47 @@ $Normal: 'Pathway Gothic One', sans-serif;
 }
 
 .about .aboutThree{
-	height:300px;
+	height: 300px;
 	background-color: white;
-	color:black;
-
-	//background: radial-gradient(white,$Gray);
+	color: black;
 }
 
 .about .aboutFour{
-		height:300px;
+		height: 300px;
 		background-color: white;
 		margin-bottom: 5%;
-	//background: linear-gradient(to bottom,$Crimson,white	);
 }
 
 .about .aboutOne{
-		height:300px;
+		height: 300px;
 		background-color: white;
-		color:black;
+		color: black;
 		margin-bottom: 40px;
-	//background: radial-gradient($DarkBlue,white);
 }
 .educationDesc{
-	width:100%;
+	width: 100%;
 }
 
 .educationDesc img{
 
-	height:80px;
+	height: 80px;
 	text-align: center
 }
 
 .uottawaLogo{
-	height:100px;
+	height: 100px;
 	border-radius: 0;
 
 
 }
 .logos{
-	margin:5% 0;	
+	margin: 5% 0;	
 }
 
 .elgLogo{
 	   // margin: 0 30%;
-border-radius: 50%;
-   margin-right:  17%;
+	border-radius: 50%;
+   margin-right: 17%;
 }
 
 .codeLogo{
@@ -81,42 +73,42 @@ border-radius: 50%;
 	
 }
 .educ{
-	justify-content:center;
-	width:250px;
+	justify-content: center;
+	width: 250px;
 }
 .educ p{
 	margin : 0;
 }
 
 .experienceDesc{
-	height:100%;
+	height: 100%;
 	text-align: left;
 }
 
 .educFlex{
-	justify-content:space-between;
+	justify-content: space-between;
 }
 .Project{
-	width:100%;
+	width: 100%;
 }
 
 .projFlexItem{
-	width:50%;
+	width: 50%;
 }
 
 .projFlex{
-	justify-content:space-between;
+	justify-content: space-between;
 
 }
 
 .interestFlex{
-	justify-content:space-between;
+	justify-content: space-between;
 }
 .interestFlexItem{
-	width:100%;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .interestFlexItem img{
 	border-radius: 0;
@@ -130,5 +122,5 @@ border-radius: 50%;
 
 .aboutList{
 	text-align: left;
-	list-style-type:square;
+	list-style-type: square;
 }

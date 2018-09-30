@@ -23,7 +23,7 @@ html , body {
 .flexColumn{
 	display: flex;
 	flex-direction:column;
-	
+
 }
 
 .wrapper {
@@ -32,9 +32,15 @@ html , body {
     margin: 0 10%;
 }
 
+/* header css*/
 @import "main_header";
+/* main index css*/
 @import "main_main";
+/* about page css*/
 @import "about";
+/* contact page css*/
 @import "contact";
+/* responsive specific css*/
 @import "responsive_style";
+/* footer css*/
 @import "main_footer";

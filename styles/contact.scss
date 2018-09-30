@@ -10,76 +10,81 @@ $Normal: 'Pathway Gothic One', sans-serif;
 
 .contactForm div{
 	font-size: 3rem;
-text-align: left;
-	margin:5%;
-	width:500px;
+	text-align: left;
+	margin: 5%;
+	width: 500px;
 }
 
+.descriptionContactForm{
+	font-size: 2rem;
+	font-weight: 10;
+}
 .contactForm button{
-	margin:5%;
+	margin: 5%;
 }
 
 .contactForm  label strong{
-	width:100px;
-	margin-right:20px;
+	width: 100px;
+	margin-right: 20px;
 }
 
 .contactDescription{
-	height:100%;
-	margin:0 5%;
+	height: 100%;
+	margin: 0 5%;
 	margin-top: 10%;
-	justify-content:space-between;
+	justify-content: space-between;
 }
 
 .contactDescription img{
-	height:300px;
+	height: 300px;
 }
+
 h6{
-	width:100px;
-	margin:0;
-	padding-top:6px;
+	width: 100px;
+	margin: 0;
+	padding-top: 6px;
 }
 
 input{
-	border:1px $Gray solid;
+	border: 1px $Gray solid;
 	border-radius: 10px;
-	height:40px;
-	width:300px;
+	height: 40px;
+	width: 300px;
 	font-size: 2rem;
-	font-family:$Dancing;
+	font-family: $Dancing;
 }
 textarea{
-		border:1px $Gray solid;
+	border: 1px $Gray solid;
 	border-radius: 10px;
-	height:40px;
-	width:300px;
+	height: 40px;
+	width: 300px;
 	font-size: 2rem;
-	font-family:$Dancing;
+	font-family: $Dancing;
 }
 
 .comment{
-	height:100px;
-	width:400px
+	height: 100px;
+	width: 400px
 }
 
 .contactform .flex{
-width:300px;
-	justify-content:space-between;
+	width: 300px;
+	justify-content: space-between;
 }
 
 .contactFormContainer{
-	border:1px $Gray solid;
+	border: 1px $Gray solid;
 	border-radius: 20px;
 	margin-bottom: 5%;
-	padding-top:5%;
+	padding-top: 5%;
 }
 
 .submitButton button{
 
 	background-color: $LightBlue;
 	border-radius: 10px;
-	height:60px;
-	width:120px;
+	height: 60px;
+	width: 120px;
 }
 .submitButton {
 	text-align: center !important;
